@@ -1,3 +1,4 @@
+import Banner from "../../Components/Banner/Banner";
 import Navbar from "../../Components/Navbar/Navbar";
 
 const Home = () => {
@@ -7,8 +8,9 @@ const Home = () => {
 			style={{ backgroundImage: "url('/herobg.jpeg')" }}
 		>
 			<div className="absolute inset-0 bg-gradient-to-b from-black via-black to-black opacity-70"></div>
-			<div className="relative z-10 container mx-auto px-2 md:px-5">
+			<div className="relative z-10  px-2">
 				<Navbar></Navbar>
+				<Banner></Banner>
 			</div>
 		</div>
 	);

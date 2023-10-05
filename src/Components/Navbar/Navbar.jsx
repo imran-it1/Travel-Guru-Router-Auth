@@ -3,7 +3,7 @@ import { BiSearch } from "react-icons/bi";
 
 const Navbar = () => {
 	return (
-		<nav className=" flex justify-between items-center text-white pt-8">
+		<nav className=" container mx-auto flex justify-between items-center text-white pt-8">
 			<div>
 				<img src={logo} alt="logo" />
 			</div>
@@ -12,7 +12,7 @@ const Navbar = () => {
 				<input
 					className="bg-gray-50 bg-opacity-10 pl-12 placeholder-white text-white w-1/2 rounded-lg
 					
-					border border-white focus:border-orange-500 focus:outline-none focus:ring-transparent
+					border border-white focus:border-amber-500 focus:outline-none focus:ring-transparent
 					
 					"
 					type="text"
@@ -24,7 +24,7 @@ const Navbar = () => {
 				<li className=" mr-16">Destinatuion</li>
 				<li className=" mr-16">Blog</li>
 				<li className=" mr-16">Contact</li>
-				<button className=" px-7 py-2 bg-amber-500 rounded-lg hover:bg-amber-600 duration-300 ease-in">
+				<button className=" px-7 py-2 bg-amber-500 rounded hover:bg-amber-600 duration-300 ease-in">
 					Login
 				</button>
 			</ul>
